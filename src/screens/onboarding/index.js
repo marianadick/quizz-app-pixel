@@ -8,8 +8,8 @@ const OnboardingScreen = ({navigation}) => {
     return (
         <Onboarding
         nextLabel={"Avançar"}
-        // onSkip={() => navigation.replace("Login")}
-        // onDone={() => navigation.replace("Login")}
+        onSkip={() => navigation.replace("Login")}
+        onDone={() => navigation.replace("Login")}
         pages={[
           {
             backgroundColor: '#fff',
