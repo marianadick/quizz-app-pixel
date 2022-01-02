@@ -33,7 +33,8 @@ export default function signUp({navigation}){
           />
         </View>
    
-        <TouchableOpacity style={styles.signUpBtn}>
+        <TouchableOpacity style={styles.signUpBtn}
+        onPress={() => navigation.navigate("HomeScreen")}>
           <Text style={styles.loginText}>Cadastre-se</Text>
         </TouchableOpacity>
 

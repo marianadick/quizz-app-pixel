@@ -40,7 +40,7 @@ export default function homeScreen({navigation}){
             <FlatList
             data={items}
             renderItem={({item})=>{
-              return <TouchableOpacity onPress={() => navigation.navigate("Login",
+              return <TouchableOpacity onPress={() => navigation.navigate("HomeScreen",
               {
                 image: item.image,
                 title: item.title,
