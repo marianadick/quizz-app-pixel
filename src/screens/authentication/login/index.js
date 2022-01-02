@@ -34,7 +34,9 @@ export default function login({navigation}){
           <Text style={styles.small_button}>Esqueceu sua senha?</Text>
         </TouchableOpacity>
    
-        <TouchableOpacity style={styles.loginBtn}>
+        <TouchableOpacity 
+        style={styles.loginBtn}
+        onPress={() => navigation.navigate("HomeScreen")}>
           <Text style={styles.loginText}>Entrar</Text>
         </TouchableOpacity>
 
